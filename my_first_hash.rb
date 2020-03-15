@@ -8,6 +8,13 @@ def shipping_manifest
   the_manifest = {"whale bone corsets" => 5, "porcelain vases" => 2, "oil pointings" => 3}
 end
 
+# context "Challenge III: Retrieving Data" do 
+#   describe "#retrieval" do 
+#     it "operates on the shipping_manifest hash to return the value of the 'oil paintings' key" do 
+#       expect(retrieval).to eq(3)
+#     end
+#   end
+# end
 def retrieval
   shipping_manifest = {
                   "whale bone corsets" => 5, 
