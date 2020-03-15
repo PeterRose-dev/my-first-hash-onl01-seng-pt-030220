@@ -15,15 +15,23 @@ end
 #     end
 #   end
 # end
-
+### Challenge III: Retrieving Data 
+# In the `retrieval` method we've given you the `shipping_manifest` hash that you built out in the previous challenge. Use the `[]` hash method to look up and return the value of the `"oil paintings"` key of the `shipping_manifest` hash.
+# For example, if we have the following hash: 
+# ```ruby
+# hash = {"key1" => "value1"}
+# ```
+# We can look up and return the value of `"key1"` like this: 
+# ```ruby
+# hash["key1"]
 def retrieval
   shipping_manifest = {
                   "whale bone corsets" => 5, 
                   "porcelain vases" => 2, 
                   "oil paintings" => 3
                  }
-
-  # Look up the value of the "oil paintings" key in the shipping_manifest hash below
+shipping_manifest["oil paintings"]
+  
 
 end
 
