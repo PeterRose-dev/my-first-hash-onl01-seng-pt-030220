@@ -4,6 +4,14 @@ def my_hash
   
 end
 
+# context "Challenge II: Hash with Data" do 
+#   describe "#shipping_manifest" do 
+#     it "returns a hash with key/value pairs describing old-timey items" do 
+#       expect(shipping_manifest.keys).to match_array(["whale bone corsets", "oil paintings", "porcelain vases"])
+#       expect(shipping_manifest.values).to match_array([2, 5, 3])
+#     end
+#   end
+# end
 
 def shipping_manifest
   # set a variable called `the_manifest`, equal to a hash
